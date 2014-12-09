@@ -1,6 +1,6 @@
 {
   "name": "tachyons-display",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "style": "display.css",
   "homepage": "http://mrmrs.io/tachyons-display",
   "description": "Performance based sass module.",
