@@ -1,12 +1,11 @@
 {
   "name": "tachyons-display",
   "version": "0.3.0",
-  "style": "display.css",
+  "style": "tachyons-display.css",
   "homepage": "http://mrmrs.io/tachyons-display",
-  "description": "Performance based sass module.",
+  "description": "Performance based css module.",
   "keywords": [
     "oocss",
-    "sass",
     "css",
     "rwd",
     "design",
