@@ -1,4 +1,6 @@
-@import "queries";
+@custom-media --breakpoint-not-small screen and (max-width: 42em);
+@custom-media --breakpoint-medium screen and (min-width: 42em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
 
 /*
 
@@ -11,6 +13,7 @@
 
 */
 
+
 .dn {     display: none; }
 .di {     display: inline; }
 .db {     display: block; }
@@ -21,7 +24,7 @@
 .dtcol {  display: table-column; }
 .dtcolg { display: table-column-group; }
 
-@include break(not-small) {
+@media (--breakpoint-not-small) {
   .dn-ns {     display: none; }
   .di-ns {     display: inline; }
   .db-ns {     display: block; }
@@ -33,7 +36,7 @@
   .dtcolg-ns { display: table-column-group; }
 }
 
-@include break(medium) {
+@media (--breakpoint-medium) {
   .dn-m {     display: none; }
   .di-m {     display: inline; }
   .db-m {     display: block; }
@@ -45,7 +48,7 @@
   .dtcolg-m { display: table-column-group; }
 }
 
-@include break(large) {
+@media (--breakpoint-large) {
   .dn-l {     display: none; }
   .di-l {     display: inline; }
   .db-l {     display: block; }
