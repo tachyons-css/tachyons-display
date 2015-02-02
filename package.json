@@ -2,7 +2,7 @@
   "name": "tachyons-display",
   "version": "1.0.0",
   "style": "tachyons-display.css",
-  "homepage": "http://mrmrs.io/tachyons-display",
+  "homepage": "http://github.com/mrmrs/tachyons-display",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
