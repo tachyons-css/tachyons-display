@@ -45,7 +45,7 @@
   display: table-column-group;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 48em) {
   .dn-ns {
     display: none;
   }
