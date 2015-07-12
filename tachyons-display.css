@@ -2,10 +2,24 @@
 
    DISPLAY
 
-   - Mobile First
-   - Breakpoint: not-small
-   - Breakpoint: medium
-   - Breakpoint: large
+   Base:
+    d = display
+
+   Modifiers:
+    n     = none
+    b     = block
+    ib    = inline-block
+    it    = inline-table
+    t     = table
+    tc    = table-cell
+    tr    = table-row
+    tcol  = table-column
+    tcolg = table-column-group
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 
