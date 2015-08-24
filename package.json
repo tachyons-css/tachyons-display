@@ -52,6 +52,6 @@
 
   },
   "scripts": {
-    "start": "gulp"
+    "start": "node build.js"
   }
 }
