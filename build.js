@@ -20,17 +20,17 @@ var output = postcss([autoprefixer])
   .use(customMedia())
   .process(css, {
     from: "src/tachyons-display.css",
-    to: "css/tachyons-display.css"
+    to: "tachyons-display.css"
   })
   .css
 
-fs.writeFile("css/tachyons-display.css", output, 'utf-8')
+fs.writeFile("tachyons-display.css", output, 'utf-8')
 
 // Using YUI Compressor for CSS
 new compressor.minify({
     type: 'sqwish',
-    fileIn: 'css/tachyons-display.css',
-    fileOut: 'css/tachyons-display.min.css',
+    fileIn: 'tachyons-display.css',
+    fileOut: 'tachyons-display.min.css',
     callback: function(err, min){
     //console.log('Sqwish');
     //console.log(err);
