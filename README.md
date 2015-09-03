@@ -1,26 +1,43 @@
-# TACHYONS-DISPLAY
+# tachyons-display
+2.1.0
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+Performance based css module.
 
 ## Install
 ```
 npm install --save-dev tachyons-display
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/tachyons-display
+```
 
 ## The Code
 ```
-
 /*
 
    DISPLAY
 
-   - Mobile First
-   - Breakpoint: not-small
-   - Breakpoint: medium
-   - Breakpoint: large
+   Base:
+    d = display
+
+   Modifiers:
+    n     = none
+    b     = block
+    ib    = inline-block
+    it    = inline-table
+    t     = table
+    tc    = table-cell
+    tr    = table-row
+    tcol  = table-column
+    tcolg = table-column-group
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 
@@ -34,7 +51,7 @@ or download the css on github and include in your project.
 .dtcol {  display: table-column; }
 .dtcolg { display: table-column-group; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .dn-ns {     display: none; }
   .di-ns {     display: inline; }
   .db-ns {     display: block; }
@@ -46,7 +63,7 @@ or download the css on github and include in your project.
   .dtcolg-ns { display: table-column-group; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .dn-m {     display: none; }
   .di-m {     display: inline; }
   .db-m {     display: block; }
@@ -58,7 +75,7 @@ or download the css on github and include in your project.
   .dtcolg-m { display: table-column-group; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em) {
   .dn-l {     display: none; }
   .di-l {     display: inline; }
   .db-l {     display: block; }
@@ -69,6 +86,8 @@ or download the css on github and include in your project.
   .dtcol-l {  display: table-column; }
   .dtcolg-l { display: table-column-group; }
 }
+
+
 ```
 
 ## Author
