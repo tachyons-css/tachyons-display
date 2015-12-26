@@ -1,6 +1,6 @@
 {
   "name": "tachyons-display",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "style": "tachyons-display.css",
   "homepage": "http://github.com/mrmrs/tachyons-display",
   "description": "Performance based css module.",
