@@ -1,4 +1,4 @@
-# tachyons-display 2.1.0
+# tachyons-display 3.0.3
 
 Performance based css module.
 

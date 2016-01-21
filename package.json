@@ -1,18 +1,17 @@
 {
   "name": "tachyons-display",
-  "version": "3.0.2",
-  "style": "tachyons-display.css",
-  "homepage": "http://github.com/tachyons-css/tachyons-display",
+  "version": "3.0.3",
+  "style": "src/tachyons-display.css",
   "description": "Performance based css module.",
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/tachyons-css/tachyons-display.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tachyons-css/tachyons-display/issues",
-    "email": "hi@mrmrs.cc"
-  },
+  "keywords": [
+    "tachyons",
+    "tachyons-css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-display",
   "author": {
     "name": "mrmrs",
     "email": "hi@mrmrs.cc",
