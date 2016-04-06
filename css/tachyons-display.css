@@ -33,6 +33,11 @@
 .dt-row-group { display: table-row-group; }
 .dt-column { display: table-column; }
 .dt-column-group { display: table-column-group; }
+/*
+  This will set table to full width and then
+  all cells will be equal width
+*/
+.dt--fixed { table-layout: fixed; width: 100%; }
 @media screen and (min-width: 48em) {
  .dn-ns { display: none; }
  .di-ns { display: inline; }
@@ -45,6 +50,7 @@
  .dt-row-group-ns { display: table-row-group; }
  .dt-column-ns { display: table-column; }
  .dt-column-group-ns { display: table-column-group; }
+ .dt--fixed-ns { table-layout: fixed; width: 100%; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .dn-m { display: none; }
@@ -58,6 +64,7 @@
  .dt-row-group-m { display: table-row-group; }
  .dt-column-m { display: table-column; }
  .dt-column-group-m { display: table-column-group; }
+ .dt--fixed-m { table-layout: fixed; width: 100%; }
 }
 @media screen and (min-width: 64em) {
  .dn-l { display: none; }
@@ -71,5 +78,6 @@
  .dt-row-group-l { display: table-row-group; }
  .dt-column-l { display: table-column; }
  .dt-column-group-l { display: table-column-group; }
+ .dt--fixed-l { table-layout: fixed; width: 100%; }
 }
 
