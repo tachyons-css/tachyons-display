@@ -1,6 +1,6 @@
 {
   "name": "tachyons-display",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "style": "src/tachyons-display.css",
   "description": "Performance based css module.",
   "keywords": [
@@ -29,5 +29,9 @@
     "build:docs": "tachyons src/tachyons-display.css --generate-docs --package=../../package.json > readme.md",
     "build": "npm run build:css && npm run build:minify && npm run build:docs",
     "build:watch": "watch 'npm run build' ./src"
+  },
+  "metadata": {
+    "category": "layout",
+    "isCore": true
   }
 }
