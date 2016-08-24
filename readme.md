@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-536 | 48 | 52
+534 | 48 | 52
 ---|---|---
 bytes | selectors | declarations
 
@@ -114,7 +114,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
   all cells will be equal width
 */
 .dt--fixed { table-layout: fixed; width: 100%; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .dn-ns { display: none; }
  .di-ns { display: inline; }
  .db-ns { display: block; }
@@ -128,7 +128,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .dt-column-group-ns { display: table-column-group; }
  .dt--fixed-ns { table-layout: fixed; width: 100%; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .dn-m { display: none; }
  .di-m { display: inline; }
  .db-m { display: block; }
@@ -142,7 +142,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .dt-column-group-m { display: table-column-group; }
  .dt--fixed-m { table-layout: fixed; width: 100%; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .dn-l { display: none; }
  .di-l { display: inline; }
  .db-l { display: block; }
