@@ -1,6 +1,6 @@
 {
   "name": "tachyons-display",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "style": "src/tachyons-display.css",
   "description": "Performance based css module.",
   "keywords": [
