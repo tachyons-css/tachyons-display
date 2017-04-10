@@ -4,6 +4,7 @@
   "style": "src/tachyons-display.css",
   "main": "src/tachyons-display.css",
   "description": "Performance based css module.",
+  "main": "src/tachyons-display.css",
   "keywords": [
     "tachyons",
     "tachyons-css"
